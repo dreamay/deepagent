@@ -1,0 +1,11 @@
+"""
+教程《Deep Agents 实战》— ch01-agent-harness
+原文位置: ch01-agent-harness: 从 Agent Framework 到 Agent Harness — Deep Agents 的诞生逻辑 / Deep Agents 的核心设计理念：Context Engineering / 传统做法的问题
+语言: yaml
+
+本文件直接从教程 HTML 中提取,代码与原文一致;仅调整了缩进/换行以保证语法合法。
+"""
+
+System: 你是一个编程助手。
+User: 请帮我重构 src/ 下的代码。
+[附带: 20 个文件的完整内容，共 50000 tokens]

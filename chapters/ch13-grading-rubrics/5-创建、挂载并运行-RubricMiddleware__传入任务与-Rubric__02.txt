@@ -1,0 +1,11 @@
+"""
+教程《Deep Agents 实战》— ch13-grading-rubrics
+原文位置: ch13-grading-rubrics: Grading Rubrics（评分量规） — 让 Agent 按验收标准自我迭代 / 5. 创建、挂载并运行 RubricMiddleware / 传入任务与 Rubric (片段 2/2)
+语言: text
+
+本文件直接从教程 HTML 中提取,代码与原文一致;仅调整了缩进/换行以保证语法合法。
+"""
+
+run 7b2d18fa iteration 0: needs_revision — One required case is failing.
+  gap: Unhashable values are supported — test_unhashable raised TypeError.
+run 7b2d18fa iteration 1: satisfied — All criteria have current passing test evidence.

@@ -1,0 +1,11 @@
+"""
+教程《Deep Agents 实战》— ch13-grading-rubrics
+原文位置: ch13-grading-rubrics: Grading Rubrics（评分量规） — 让 Agent 按验收标准自我迭代 / 8. 生产环境的安全与评测边界 / 为失败状态定义明确去向
+语言: illustrative
+
+本文件直接从教程 HTML 中提取,代码与原文一致;仅调整了缩进/换行以保证语法合法。
+"""
+
+总调用量 ≈ Working Model 尝试次数
+         + Grader Model 评分次数
+         + Evidence Tool 调用次数

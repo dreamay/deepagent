@@ -1,0 +1,13 @@
+"""
+教程《Deep Agents 实战》— ch05-subagents
+原文位置: ch05-subagents: 子 Agent 与上下文隔离 — 让 Agent 学会委派 / 常见问题排查 / 子 Agent 没被调用——主 Agent 自己做了所有工作 (片段 1/2)
+语言: illustrative
+
+本文件直接从教程 HTML 中提取,代码与原文一致;仅调整了缩进/换行以保证语法合法。
+"""
+
+# ✅ 具体
+"description": "执行深度网络研究，需要多次搜索、交叉验证和综合分析时使用"
+
+# ❌ 模糊
+"description": "帮助完成任务"

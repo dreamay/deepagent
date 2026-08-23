@@ -1,0 +1,12 @@
+"""
+教程《Deep Agents 实战》— ch05-subagents
+原文位置: ch05-subagents: 子 Agent 与上下文隔离 — 让 Agent 学会委派 / 常见问题排查 / 上下文依然膨胀 (片段 2/2)
+语言: illustrative
+
+本文件直接从教程 HTML 中提取,代码与原文一致;仅调整了缩进/换行以保证语法合法。
+"""
+
+system_prompt="""收集到大量原始数据时：
+1. 用 write_file 将原始数据保存到 /data/raw.txt
+2. 处理并分析数据
+3. 只把分析摘要返回给主 Agent"""

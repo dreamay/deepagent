@@ -1,0 +1,15 @@
+"""
+教程《Deep Agents 实战》— ch08-long-term-memory
+原文位置: ch08-long-term-memory: 长期记忆 — 让 Agent 拥有跨对话的记忆 / CompositeBackend：长期记忆的核心方案 / 路径路由的工作方式
+语言: illustrative
+
+本文件直接从教程 HTML 中提取,代码与原文一致;仅调整了缩进/换行以保证语法合法。
+"""
+
+# 临时文件 → StateBackend（对话结束后丢失）
+write_file("/workspace/draft.txt", "草稿内容...")
+write_file("/notes.txt", "临时笔记...")
+
+# 持久化文件 → StoreBackend（跨对话保留）
+write_file("/memories/preferences.md", "用户偏好：简洁代码风格")
+write_file("/memories/project/tech-stack.md", "React + TypeScript")

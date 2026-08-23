@@ -1,0 +1,13 @@
+"""
+教程《Deep Agents 实战》— ch08-long-term-memory
+原文位置: ch08-long-term-memory: 长期记忆 — 让 Agent 拥有跨对话的记忆 / 最佳实践 / 1. 使用描述性路径
+语言: illustrative
+
+本文件直接从教程 HTML 中提取,代码与原文一致;仅调整了缩进/换行以保证语法合法。
+"""
+
+/memories/AGENTS.md                 # Agent 自身知识（Agent-scoped）
+/memories/preferences.md            # 用户偏好（User-scoped）
+/memories/project/tech-stack.md     # 项目技术栈
+/memories/research/topic-a/notes.md # 研究笔记
+/policies/compliance.md             # 组织合规策略（只读）

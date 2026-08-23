@@ -1,0 +1,14 @@
+"""
+教程《Deep Agents 实战》— ch08-long-term-memory
+原文位置: ch08-long-term-memory: 长期记忆 — 让 Agent 拥有跨对话的记忆 / 文件存储格式与外部写入 (片段 1/2)
+语言: illustrative
+
+本文件直接从教程 HTML 中提取,代码与原文一致;仅调整了缩进/换行以保证语法合法。
+"""
+
+{
+    "content": "第一行\n第二行\n第三行",
+    "encoding": "utf-8",
+    "created_at": "2024-01-15T10:30:00Z",       # 创建时间
+    "modified_at": "2024-01-15T11:45:00Z"       # 最后修改时间
+}

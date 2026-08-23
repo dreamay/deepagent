@@ -1,0 +1,16 @@
+"""
+教程《Deep Agents 实战》— ch08-long-term-memory
+原文位置: ch08-long-term-memory: 长期记忆 — 让 Agent 拥有跨对话的记忆 / 四种实用场景 / 3. 知识库累积
+语言: illustrative
+
+本文件直接从教程 HTML 中提取,代码与原文一致;仅调整了缩进/换行以保证语法合法。
+"""
+
+# 对话 1：收集项目信息
+# Agent 保存到 /memories/project/tech-stack.md
+
+# 对话 2：补充更多信息
+# Agent 读取已有内容，追加新的信息
+
+# 对话 3：利用积累的知识
+# Agent 基于完整的项目知识回答问题

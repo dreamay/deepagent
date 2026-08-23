@@ -1,0 +1,17 @@
+"""
+教程《Deep Agents 实战》— ch03-virtual-filesystem
+原文位置: ch03-virtual-filesystem: 虚拟文件系统 — Deep Agents 的 Context Engineering 核心 / 上下文自动管理：不只是存文件 / 大结果自动卸载
+语言: illustrative
+
+本文件直接从教程 HTML 中提取,代码与原文一致;仅调整了缩进/换行以保证语法合法。
+"""
+
+原始结果：[50000 tokens 的搜索结果]
+
+自动卸载后：
+"结果已保存到 /workspace/search_results_001.md，
+ 前 10 行预览：
+   1  # Search Results for 'LangGraph'
+   2
+   3  ## Result 1: Official Documentation
+   4  ..."

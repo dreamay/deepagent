@@ -1,0 +1,13 @@
+"""
+教程《Deep Agents 实战》— ch03-virtual-filesystem
+原文位置: ch03-virtual-filesystem: 虚拟文件系统 — Deep Agents 的 Context Engineering 核心 / 内置文件系统工具 / read_file ：不只是”读文件”
+语言: illustrative
+
+本文件直接从教程 HTML 中提取,代码与原文一致;仅调整了缩进/换行以保证语法合法。
+"""
+
+# 默认最多读取前 100 行
+read_file("/workspace/report.md")
+
+# 从第 100 行开始，读取 50 行
+read_file("/workspace/report.md", offset=100, limit=50)

@@ -1,0 +1,29 @@
+"""
+教程《Deep Agents 实战》— ch06-async-subagents
+原文位置: ch06-async-subagents: 异步子 Agent — 让主 Agent 同时驱动多个子任务 / 主 Agent 的 5 把”遥控器” / 一次完整生命周期
+语言: illustrative
+
+本文件直接从教程 HTML 中提取,代码与原文一致;仅调整了缩进/换行以保证语法合法。
+"""
+
+用户：帮我深入调研一下 LangGraph 多 Agent 架构。
+主 Agent → start_async_task(description="调研 LangGraph 多 Agent 架构", subagent_type="researcher")
+           → 返回 task_id: abc-123
+主 Agent ← 「已经派 researcher 在后台开干，任务 ID：abc-123，
+            你可以继续问别的，也可以随时让我查进度。」
+
+用户：先帮我把这段 Python 代码格式化一下。
+主 Agent ← （直接处理，researcher 仍在后台跑）
+
+用户：刚才那个调研有进展吗？
+主 Agent → check_async_task("abc-123")
+           ← status: running
+主 Agent ← 「还在跑，已经搜了 4 个关键词，预计还要几分钟。」
+
+用户：补一下：重点关注 supervisor / network / hierarchical 这三种拓扑。
+主 Agent → update_async_task("abc-123", "重点关注三种拓扑：supervisor / network / hierarchical")
+           ← 已注入新指令
+
+用户：算了，先停一下。
+主 Agent → cancel_async_task("abc-123")
+           ← cancelled

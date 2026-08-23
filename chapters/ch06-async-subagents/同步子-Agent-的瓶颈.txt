@@ -1,0 +1,12 @@
+"""
+教程《Deep Agents 实战》— ch06-async-subagents
+原文位置: ch06-async-subagents: 异步子 Agent — 让主 Agent 同时驱动多个子任务 / 同步子 Agent 的瓶颈
+语言: illustrative
+
+本文件直接从教程 HTML 中提取,代码与原文一致;仅调整了缩进/换行以保证语法合法。
+"""
+
+# 主 Agent 调用同步子 Agent
+result = task(name="researcher", task="深入调研 LangGraph 生态")
+# 此时主 Agent 在等待——可能要等 60 秒、120 秒，甚至更久
+# 用户只能盯着对话框转圈

@@ -1,0 +1,16 @@
+"""
+教程《Deep Agents 实战》— ch04-task-planning
+原文位置: ch04-task-planning: 任务规划与分解 — 让 Agent 学会拆解复杂任务 / write_todos 工具详解 / Agent 怎么用 write_todos？ (片段 3/3)
+语言: illustrative
+
+本文件直接从教程 HTML 中提取,代码与原文一致;仅调整了缩进/换行以保证语法合法。
+"""
+
+Agent 思考：搜索时发现 Prefect 不太合适，应该换成 Durable Objects。
+Agent 调用 write_todos 更新列表：
+  1. [completed] 搜索 LangGraph 官方文档和核心概念
+  2. [in_progress] 搜索三个竞品
+  3. [pending] 对比分析各产品的优劣势
+  4. [pending] 撰写报告大纲
+  5. [pending] 撰写完整报告
+  6. [pending] 补充 Durable Objects 的资料 ← 新增

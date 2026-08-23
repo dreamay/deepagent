@@ -1,0 +1,14 @@
+"""
+教程《Deep Agents 实战》— ch07-skills
+原文位置: ch07-skills: Skills — 可复用的 Agent 能力包 / 编写高效 Skills 的最佳实践 / 2. SKILL.md 正文控制在 5000 tokens / 500 行以内
+语言: tree
+
+本文件直接从教程 HTML 中提取,代码与原文一致;仅调整了缩进/换行以保证语法合法。
+"""
+
+skills/
+└── api-design/
+    ├── SKILL.md              # 核心流程（< 500 行）
+    └── references/
+        ├── rest-conventions.md   # 详细参考：REST 规范
+        └── error-codes.md        # 详细参考：错误码定义

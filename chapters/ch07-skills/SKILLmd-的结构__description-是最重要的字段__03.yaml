@@ -1,0 +1,9 @@
+"""
+教程《Deep Agents 实战》— ch07-skills
+原文位置: ch07-skills: Skills — 可复用的 Agent 能力包 / SKILL.md 的结构 / description 是最重要的字段 (片段 3/4)
+语言: yaml
+
+本文件直接从教程 HTML 中提取,代码与原文一致;仅调整了缩进/换行以保证语法合法。
+"""
+
+description: A helpful skill for developers.

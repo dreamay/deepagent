@@ -1,0 +1,13 @@
+"""
+教程《Deep Agents 实战》— ch07-skills
+原文位置: ch07-skills: Skills — 可复用的 Agent 能力包 / 用 Skills 执行代码 / 沙箱脚本（Sandbox Scripts） (片段 1/2)
+语言: tree
+
+本文件直接从教程 HTML 中提取,代码与原文一致;仅调整了缩进/换行以保证语法合法。
+"""
+
+skills/
+└── arxiv-search/
+    ├── SKILL.md
+    └── scripts/
+        └── search.py

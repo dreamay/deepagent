@@ -1,0 +1,9 @@
+"""
+教程《Deep Agents 实战》— ch07-skills
+原文位置: ch07-skills: Skills — 可复用的 Agent 能力包 / 编写高效 Skills 的最佳实践 / 1. Frontmatter 保持精简 (片段 1/2)
+语言: yaml
+
+本文件直接从教程 HTML 中提取,代码与原文一致;仅调整了缩进/换行以保证语法合法。
+"""
+
+description: 当用户询问 LangGraph 的节点定义、状态管理、中断机制或部署配置时使用此技能。获取最新官方文档并提供代码示例。

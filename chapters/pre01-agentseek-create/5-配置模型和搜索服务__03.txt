@@ -1,0 +1,12 @@
+"""
+教程《Deep Agents 实战》— pre01-agentseek-create
+原文位置: pre01-agentseek-create: AgentSeek 准备篇（上）：用生命周期工作流启动 DeepAgents 模板 / 5. 配置模型和搜索服务 (片段 3/5)
+语言: text
+
+本文件直接从教程 HTML 中提取,代码与原文一致;仅调整了缩进/换行以保证语法合法。
+"""
+
+AGENTSEEK_MODEL_PROVIDER=openai
+AGENTSEEK_MODEL=gpt-4.1-mini
+OPENAI_API_BASE=
+OPENAI_API_KEY=<your-openai-api-key>

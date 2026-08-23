@@ -1,0 +1,15 @@
+"""
+教程《Deep Agents 实战》— ch14-streaming
+原文位置: ch14-streaming: Streaming — 实时观察主 Agent、子 Agent 与工具调用 / 10. 从“能看到”到“能交付”
+语言: illustrative
+
+本文件直接从教程 HTML 中提取,代码与原文一致;仅调整了缩进/换行以保证语法合法。
+"""
+
+coordinator message  -> 主对话
+subagent started     -> researcher 卡片进入 running
+subagent message     -> 写入 researcher 卡片
+tool call            -> 卡片里的工具行，显示参数和结果
+subagent completed   -> 卡片收起，保留摘要和状态
+final output         -> 主对话里的最终答案
+error/interrupted    -> 对应层级的错误或中断提示

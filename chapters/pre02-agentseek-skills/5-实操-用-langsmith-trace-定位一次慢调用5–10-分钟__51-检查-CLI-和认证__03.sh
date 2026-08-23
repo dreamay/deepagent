@@ -1,0 +1,9 @@
+"""
+教程《Deep Agents 实战》— pre02-agentseek-skills
+原文位置: pre02-agentseek-skills: AgentSeek 准备篇（下）：为 AI 编码助手安装开发技能 / 5. 实操：用 langsmith-trace 定位一次慢调用（5–10 分钟） / 5.1 检查 CLI 和认证 (片段 3/7)
+语言: shell
+
+本文件直接从教程 HTML 中提取,代码与原文一致;仅调整了缩进/换行以保证语法合法。
+"""
+
+curl -fsSL https://cli.langsmith.com/install.sh | sh

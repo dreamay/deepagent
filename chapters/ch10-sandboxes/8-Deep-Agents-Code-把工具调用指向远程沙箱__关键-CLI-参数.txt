@@ -1,0 +1,19 @@
+"""
+教程《Deep Agents 实战》— ch10-sandboxes
+原文位置: ch10-sandboxes: 沙箱执行 — 让 Agent 安全地运行代码 / 8. Deep Agents Code：把工具调用指向远程沙箱 / 关键 CLI 参数
+语言: illustrative
+
+本文件直接从教程 HTML 中提取,代码与原文一致;仅调整了缩进/换行以保证语法合法。
+"""
+
+# 新建 LangSmith 沙箱
+dcode --sandbox langsmith
+
+# 重连 Runloop devbox：不会自动创建或清理
+dcode --sandbox runloop --sandbox-id dbx_abc123
+
+# 创建后运行设置脚本
+dcode --sandbox modal --sandbox-setup ./setup.sh
+
+# 使用 config.toml 中的默认 Provider；裸 --sandbox 必须放在命令最后
+dcode --sandbox
